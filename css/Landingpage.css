@@ -1,0 +1,72 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.Landingpage {
+    width: auto;
+    height: 100vh;
+    background-color: rgba(46, 45, 45, 0.582);
+}
+
+.Landingpage-image img{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    float: left;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#image-top-left img{
+    border-radius: 0% 0% 80% 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+#image-top-right img{
+    border-radius: 0% 0% 0% 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+#image-bottom-left img{
+    border-radius: 0% 80% 0% 0%;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.6), 0 6px 20px 10px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+#image-bottom-right img{
+    border-radius: 80% 0% 0% 0%;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.6), 0 6px 20px 10px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+#image-top-left, 
+#image-top-right,
+#image-bottom-left,
+#image-bottom-right,
+img:hover{
+    transition: 0.5s;
+    filter: saturate(2);
+    cursor: pointer;
+    transform: scale(1.01);
+    z-index: 10;
+}
+
+.Landingpage-video video{
+    z-index: -2;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.Landingpage h1 {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+}
