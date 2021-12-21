@@ -52,6 +52,8 @@
     .navbar-right i,
     a {
         display: block;
+        margin: auto;
+        margin-left: 15px;
     }
     .navbar img {
         margin-left: -15px;
