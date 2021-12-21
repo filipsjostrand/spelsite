@@ -53,4 +53,7 @@
     a {
         display: block;
     }
+    .navbar img {
+        margin-left: -15px;
+    }
 }
