@@ -43,15 +43,12 @@
 @media screen and (max-width: 1000px) {
     .navbar {
         display: block;
-        text-align: center;
     }
 }
 
 @media screen and (max-width: 680px) {
-    .navbar {
-        text-align: start;
-    }
-    .navbar-right {
-        display: inline;
+    .navbar-right i,
+    a {
+        display: block;
     }
 }
