@@ -3,6 +3,7 @@
 }
 
 .Landingpage {
+    overflow: hidden;
     width: auto;
     height: 100vh;
     background-color: rgba(46, 45, 45, 0.582);
