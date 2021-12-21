@@ -63,7 +63,7 @@ img:hover{
 
 .Greeting-introduction {
     position: absolute;
-    top: 68%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: solid 2px black;
