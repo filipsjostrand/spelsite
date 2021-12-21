@@ -8,11 +8,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to top left, #e20dc6af, #580de2af);
     padding: 20px 10px;
 }
 
 .navbar-right a {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
     margin-right: 40px;
 }
 
@@ -21,35 +23,34 @@
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 12px;
     transition: 0.5s;
 }
 
 .navbar img {
+    margin-top: 30px;
     width: 300px;
     object-fit: cover;
+    transition: 0.5s;
 }
 
 .navbar a:hover {
     transition: 0.5s;
-    background-color: #ddd;
+    background-color: rgba(46, 2, 39, 0.15);
     color: black;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1000px) {
     .navbar {
-        display: block;
         text-align: center;
+        display: block;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .navbar {
+@media screen and (max-width: 680px) {
+    .navbar-right i,
+    a {
         display: block;
-        text-align: start;
-    }
-    .navbar-right {
-        padding-left: 20px;
     }
 }
