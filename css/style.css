@@ -31,6 +31,7 @@
 .navbar img {
     width: 300px;
     object-fit: cover;
+    transition: 0.5s;
 }
 
 .navbar a:hover {
@@ -39,19 +40,18 @@
     color: black;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1000px) {
     .navbar {
         display: block;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
     .navbar {
-        display: block;
         text-align: start;
     }
     .navbar-right {
-        padding-left: 20px;
+        display: inline;
     }
 }
