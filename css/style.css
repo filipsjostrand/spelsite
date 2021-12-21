@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to top left, #e20dc6af, #580de2af);
     padding: 20px 10px;
 }
 
@@ -33,7 +33,7 @@
 
 .navbar a:hover {
     transition: 0.5s;
-    background-color: #ddd;
+    background-color: rgba(46, 2, 39, 0.15);
     color: black;
 }
 
