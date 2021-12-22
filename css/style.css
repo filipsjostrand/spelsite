@@ -15,7 +15,7 @@
 .navbar-right a {
     font-weight: bold;
     font-family: 'Pacifico', cursive;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .navbar a {
@@ -37,7 +37,6 @@
 
 .navbar a:hover {
     transition: 0.5s;
-    background-color: rgba(46, 2, 39, 0.15);
     color: black;
 }
 
@@ -49,13 +48,11 @@
 }
 
 @media screen and (max-width: 680px) {
-    .navbar-right i,
-    a {
-        display: block;
-        margin: auto;
-        margin-left: 15px;
-    }
     .navbar img {
-        margin-left: -15px;
+        margin-top: 0px;
+        width: 100px;
+    }
+    .navbar a {
+        font-size: 10px;
     }
 }
