@@ -33,9 +33,9 @@ const dynamic = document.querySelector('.game-container');
 for (let i = 0; i < games.length; i++) {
     const fetch = document.querySelector('.game-container').innerHTML;
     dynamic.innerHTML = `<div class="game" onclick="window.open('${games[i].link}', 'newurl.html','mywindow');" style="cursor: pointer;">
-        <img src="./media/images/${games[i].filename}" alt="${games[i].alt}" class="thumbnail">
+        <img src="../media/images/${games[i].filename}" alt="${games[i].alt}" class="thumbnail">
             <div class="content">
-                <img  src="./media/images/${games[i].filename}" alt="${games[i].alt}" class="game-icon">
+                <img  src="../media/images/${games[i].filename}" alt="${games[i].alt}" class="game-icon">
                     <div class="info">
                         <h4 class="title">${games[i].description}</h4>
                         <p class="game-name">${games[i].name}</p>
