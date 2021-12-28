@@ -14,8 +14,11 @@
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px 5px;
     overflow-x: hidden;
-    background: rgb(117, 54, 124);
-
+    background: url("../media/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .game {
