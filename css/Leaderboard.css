@@ -1,5 +1,6 @@
 main *{
     font-family: 'Pacifico', cursive;
+    text-shadow: antiquewhite 0 0 2px;
 }
 main{
     position: relative;
@@ -10,6 +11,7 @@ main{
 main {
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 
 main img{
@@ -23,7 +25,7 @@ main section{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background: #FFFFFF90;
+    background: linear-gradient(to top left, #e20dc6d0, #580de2c7);
     backdrop-filter: blur(7px);
 
     padding: 2ch 3em;
@@ -38,10 +40,8 @@ main hr{
     background: black;
     border-style: solid;
 }
-main td{
-    text-shadow: antiquewhite 0 0 2px;
+main td, main th{
     text-align: right;
-
 }
 
 main td:nth-child(2){
@@ -51,4 +51,15 @@ main td:nth-child(2){
 main tr{
     border: 0 solid black;
     border-bottom-width: 0.01px;
+}
+
+@media (max-width: 50em){
+    main img{
+        width: auto;
+        height: 100vh;
+        justify-self: center;
+        align-self: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
 }
