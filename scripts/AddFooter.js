@@ -1,5 +1,5 @@
 
-const supportContent = [
+const supportLinks = [
     {
         text: "FAQ",
         href: "None"
@@ -16,7 +16,7 @@ const supportContent = [
     }
 ]
 
-const aboutUsContent = [
+const aboutUsLinks = [
     {
         text: "About us",
         href: "/spelsite/pages/About.html"
@@ -28,7 +28,7 @@ const aboutUsContent = [
     }
 ]
 
-const legalContent = [
+const legalLinks = [
     {
         text: "Terms",
         href: "None"
@@ -41,46 +41,48 @@ const legalContent = [
 
 ]
 
-content = [
+const sections = [
     {
         header: "Support",
-        content: supportContent
+        links: supportLinks
     },
 
     {
         header: "About us",
-        content: aboutUsContent
+        links: aboutUsLinks
     },
 
     {
         header: "Legal",
-        content: legalContent
-    },
+        links: legalLinks
+    }
 ]
 
 const root = document.createElement("FOOTER")
 
-for (let cont of content){
-    if (cont.content === undefined || cont.content.length === 0) continue
+for (let section of sections){
+    console.log(section)
+    if (section.links === undefined || section.links.length === 0) continue
 
-    const section = document.createElement("SECTION")
+    const element = document.createElement("SECTION")
     const header = document.createElement("H3")
-    header.innerHTML = cont.header
-    const list = document.createElement("UL")
+    header.innerHTML = section.header
 
-    for (let link of cont.content){
-        const elem = document.createElement("LI")
-        const a = document.createElement("A")
-        a.innerHTML = link.text
-        a.href = link.href
-        elem.appendChild(a)
-        list.appendChild(elem)
+    const list = document.createElement("UL")
+    for (let link of section.links){
+        const item = document.createElement("LI")
+        const anchor = document.createElement("A")
+        anchor.innerHTML = link.text
+        anchor.href = link.href
+        item.appendChild(anchor)
+        list.appendChild(item)
     }
 
-    section.appendChild(header)
-    section.appendChild(document.createElement("HR"))
-    section.appendChild(list)
-    root.appendChild(section)
+    element.appendChild(header)
+    element.appendChild(document.createElement("HR"))
+    element.appendChild(list)
+
+    root.appendChild(element)
 }
 
 const style = document.createElement("LINK")
