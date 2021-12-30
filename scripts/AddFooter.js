@@ -87,7 +87,7 @@ for (let section of sections){
 
 const style = document.createElement("LINK")
 style.rel = "stylesheet"
-style.href = "../css/footer.css"
+style.href = "/spelsite/css/footer.css"
 document.head.appendChild(style)
 document.body.appendChild(root)
 
