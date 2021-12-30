@@ -1,0 +1,54 @@
+main *{
+    font-family: 'Pacifico', cursive;
+}
+main{
+    position: relative;
+    width: 100%;
+}
+
+
+main {
+    position: relative;
+    display: flex;
+}
+
+main img{
+    z-index: -1;
+    width: 100%;
+}
+
+main section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: #FFFFFF90;
+    backdrop-filter: blur(7px);
+
+    padding: 2ch 3em;
+}
+
+main table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+main hr{
+    background: black;
+    border-style: solid;
+}
+main td{
+    text-shadow: antiquewhite 0 0 2px;
+    text-align: right;
+
+}
+
+main td:nth-child(2){
+    padding-left: 1em
+}
+
+main tr{
+    border: 0 solid black;
+    border-bottom-width: 0.01px;
+}
