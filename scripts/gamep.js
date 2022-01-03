@@ -1,5 +1,4 @@
-const games = [
-    {
+const games = [{
         name: "game4",
         description: "Best game",
         filename: "game4.PNG",
@@ -25,7 +24,7 @@ const games = [
         description: "First game",
         filename: "game1.PNG",
         alt: "img1",
-        link: "https://youtube.com",
+        link: "../pages/quiz.html",
     },
 ];
 
