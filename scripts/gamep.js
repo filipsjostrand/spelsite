@@ -20,9 +20,9 @@ const games = [{
         link: "https://bing.com",
     },
     {
-        name: "game1",
-        description: "First game",
-        filename: "game1.PNG",
+        name: "",
+        description: "QUIZ TIME!",
+        filename: "game1.png",
         alt: "img1",
         link: "../pages/quiz.html",
     },
