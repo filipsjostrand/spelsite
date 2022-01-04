@@ -19,7 +19,7 @@ const games = [{
         description: "Destroy infinite enemy spaceships",
         filename: "colorblast.PNG",
         alt: "img2",
-        link: "../spelsite test/pages/colorblast.html",
+        link: "../pages/colorblast.html",
     },
     {
         name: "",
