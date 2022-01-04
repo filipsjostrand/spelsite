@@ -22,8 +22,8 @@ const games = [{
         link: "../pages/colorblast.html",
     },
     {
-        name: "",
-        description: "WEB - QUIZZO",
+        name: "WEB - QUIZZO",
+        description: "",
         filename: "game1.png",
         alt: "img1",
         link: "../pages/quiz.html",
