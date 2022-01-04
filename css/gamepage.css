@@ -32,6 +32,10 @@
     background: rgb(159, 49, 172);
 }
 
+.game:hover {
+    opacity: 60%
+}
+
 .thumbnail {
     width: 100%;
     height: 150px;
