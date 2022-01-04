@@ -64,6 +64,12 @@
     overflow: hidden;
 }
 
+.game-desc {
+    font-size: 2ch;
+    margin: 2px 0;
+    color: #cacaca;
+}
+
 /* Vertikal grid-riktning (small screen) */
 @media (max-width: 767px) {
     .game-container {
