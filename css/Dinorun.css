@@ -1,0 +1,49 @@
+#score {
+    text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("../media/DinorunBG.png");
+    background-size: cover;
+}
+
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 186px;
+    background-image: url("../media/DinoCH.png");
+    background-size: cover;
+    
+}
+
+#rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 135px;
+    left: 550px;
+    background-image: url("../media/DinoObj.png");
+    background-size: cover;
+    animation: rock 1.5s infinite linear;
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+}
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top: 186px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 186px;}
+}
