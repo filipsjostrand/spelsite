@@ -1,3 +1,5 @@
+// Spelsidans spel-informations-objekt "games".
+
 const games = [{
         name: "game4",
         description: "Best game",
@@ -13,11 +15,11 @@ const games = [{
         link: "https://duckduckgo.com",
     },
     {
-        name: "game2",
-        description: "Good game",
-        filename: "game2.PNG",
+        name: "Color Blast",
+        description: "Destroy infinite enemy spaceships",
+        filename: "colorblast.PNG",
         alt: "img2",
-        link: "https://bing.com",
+        link: "../spelsite test/pages/colorblast.html",
     },
     {
         name: "",
@@ -28,6 +30,9 @@ const games = [{
     },
 ];
 
+
+// For-loop för respektive spels spel-information, bilder, design och funktionalitet.
+
 const dynamic = document.querySelector('.game-container');
 for (let i = 0; i < games.length; i++) {
     const fetch = document.querySelector('.game-container').innerHTML;
@@ -36,8 +41,8 @@ for (let i = 0; i < games.length; i++) {
             <div class="content">
                 <img  src="../media/images/${games[i].filename}" alt="${games[i].alt}" class="game-icon">
                     <div class="info">
-                        <h4 class="title">${games[i].description}</h4>
-                        <p class="game-name">${games[i].name}</p>
+                        <h4 class="game-name">${games[i].name}</h4>
+                        <p class="game-desc">${games[i].description}</p>
                     </div>
             </div>
         </div>` + fetch;
