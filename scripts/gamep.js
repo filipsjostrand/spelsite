@@ -1,4 +1,4 @@
-// Spelsidans spel-informations-objekt "games".
+// Spelsidans spel-informations-objekt: "games".
 
 const games = [{
         name: "game4",
