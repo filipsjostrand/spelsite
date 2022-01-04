@@ -15,7 +15,7 @@ const games = [{
         link: "https://duckduckgo.com",
     },
     {
-        name: "Color Blast",
+        name: "Color Blast!",
         description: "Destroy infinite enemy spaceships",
         filename: "colorblast.PNG",
         alt: "img2",
