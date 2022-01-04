@@ -21,7 +21,7 @@ const games = [{
     },
     {
         name: "",
-        description: "QUIZ TIME!",
+        description: "WEB - QUIZZO",
         filename: "game1.png",
         alt: "img1",
         link: "../pages/quiz.html",
