@@ -47,6 +47,34 @@ const quizData = [{
         c: "C: Both the <head> & <body> section are viable",
         d: "D: None of the above",
         correct: "c",
+    }, {
+        question: "How do you write \"Hello World\" in an alert box?",
+        a: "A: alert(Hello World);",
+        b: "B: alert(\"Hello World\");",
+        c: "C: alertbox(\"Hello World\");",
+        d: "D: message(\"Hello Kitty\");",
+        correct: "b",
+    }, {
+        question: "How do you write a single line comment in JavaScript?",
+        a: "A: 'Like this",
+        b: "B: <!-- No it's like this!-->",
+        c: "C: // I personally think like this",
+        d: "D: @@ We all know the real answer is like this @@",
+        correct: "c",
+    }, {
+        question: "How do you find the number with the highest value of x and y?",
+        a: "A: top(x, y);",
+        b: "B: middle(x, y);",
+        c: "C: Math.ceil(x, y);",
+        d: "D: Math.max(x, y);",
+        correct: "d",
+    }, {
+        question: "Which event occurs when the user clicks on an HTML element?",
+        a: "A: onclick",
+        b: "B: onmouseclick",
+        c: "C: onmouseover",
+        d: "D: onchange",
+        correct: "a",
     },
 
 
