@@ -1,18 +1,18 @@
 // Spelsidans spel-informations-objekt: "games".
 
 const games = [{
-        name: "game4",
-        description: "Best game",
-        filename: "game4.PNG",
-        alt: "img4",
-        link: "https://google.com",
+    name: "Gomoku",
+    description: "The Classic 5 in a row game.",
+    filename: "Gomoku.png",
+    alt: "Gomoku",
+    link: "../pages/Gomoku.html",
     },
     {
-        name: "Gomoku",
-        description: "The Classic 5 in a row game.",
-        filename: "Gomoku.png",
-        alt: "Gomoku",
-        link: "../pages/Gomoku.html",
+        name: "Dinorun",
+        description: "Avoid the beige RGB haters",
+        filename: "RGB_Dinorun.png",
+        alt: "img3",
+        link: "../pages/Dinorun.html",
     },
     {
         name: "Color Blast!",
