@@ -84,11 +84,6 @@ for (let section of sections){
 
     root.appendChild(element)
 }
-
-const style = document.createElement("LINK")
-style.rel = "stylesheet"
-style.href = "/spelsite/css/Footer.css"
-document.head.appendChild(style)
 document.body.appendChild(root)
 
 
