@@ -8,11 +8,11 @@ const games = [{
         link: "https://google.com",
     },
     {
-        name: "game3",
-        description: "Great game",
-        filename: "game3.PNG",
+        name: "Dinorun",
+        description: "Avoid the beige RGB haters",
+        filename: "RGB_Dinorun.png",
         alt: "img3",
-        link: "https://duckduckgo.com",
+        link: "../pages/Dinorun.html",
     },
     {
         name: "Color Blast!",
