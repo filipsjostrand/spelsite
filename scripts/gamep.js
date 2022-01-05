@@ -8,11 +8,11 @@ const games = [{
         link: "https://google.com",
     },
     {
-        name: "game3",
-        description: "Great game",
-        filename: "game3.PNG",
-        alt: "img3",
-        link: "https://duckduckgo.com",
+        name: "Gomoku",
+        description: "The Classic 5 in a row game.",
+        filename: "Gomoku.png",
+        alt: "Gomoku",
+        link: "../pages/Gomoku.html",
     },
     {
         name: "Color Blast!",
