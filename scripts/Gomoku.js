@@ -51,6 +51,7 @@ function placeStone(x,y){
     board[x][y].style.opacity = "100%";
     if (!wonBoard && checkWin(x,y)){
         document.getElementById("Message").innerHTML = blackTurn? "Black Winn!": "White Winn!"
+        board[x][y].style.backgroundColor = "gold"
         wonBoard = true
     }else{
         document.getElementById("Message").innerHTML = !blackTurn? "It's Black's turn.": "It's White's turn."
